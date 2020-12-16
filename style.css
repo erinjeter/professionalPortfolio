@@ -1,0 +1,43 @@
+nav {
+  background-color: rgb(187, 178, 179);
+}
+
+#title-wrapper {
+  height: 800px;
+  align-content: center;
+}
+
+#title-wrapper {
+  background-image: url("/Users/erin/ElevenFiftyProjects/Homework/Portfolio/assets/IMG_3629.JPG");
+  height: 1000px;
+}
+
+#title-inner {
+  color: rgb(187, 178, 179);
+  margin-left: 5em;
+  font-family: "Rubik", sans-serif;
+}
+
+#about-me-container {
+  height: 500px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+img {
+  align-content: center;
+}
+
+#about-me-header,
+#skills-header {
+  text-align: center;
+}
+
+.portfolio-wrapper {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#icons {
+  margin: 30px;
+}
