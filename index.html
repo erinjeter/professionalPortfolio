@@ -9,25 +9,24 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0845c3f3a9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light style='background-color: rgb(187, 178, 179'">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">HOME</a>
+        <div class="container-fluid" id="home">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
-                    <a class="nav-link" href="#">PORTFOLIO</a>
-                    <a class="nav-link" href="#">CONTACT ME</a>
+                    <a class="nav-link active" aria-current="page" href="#about-me-container">ABOUT</a>
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                    <a class="nav-link" href="#contact-form">CONTACT ME</a>
                 </div>
             </div>
         </div>
@@ -49,122 +48,190 @@
     <div class="container" id="about-me-container">
         <div class="row align-items-left">
             <div class="col">
-                <h3 id="skills-header">SKILLS</h3>
+                <h1 id="skills-header">SKILLS</h1>
                 <div class="container">
                     <div class="row" style="text-align: center;" class="skills-content">
-                        <div class="col-sm-4" id="icons"><i class="fab fa-html5"></i><br>HTML</div>
-                        <div class="col-sm-4" id="icons"><i class="fab fa-css3-alt"></i><br>CSS</div>
-                        <div class="col-sm-4" id="icons"><i class="fab fa-js-square"></i><br>JavaScript</div>
-                        <div class="col-sm-4" id="icons"><i class="fab fa-bootstrap"></i><br>Bootstrap</div>
-                        <div class="col-sm-4" id="icons"><i class="fas fa-palette"></i><br>UI/UX & Design</div>
-                        <div class="col-sm-4" id="icons"><i class="fas fa-file-excel"></i><br>Excel</div>
+                        <span class="col-sm-4" id="icons"><i class="fab fa-html5"
+                                style="font-size: 4em; color: #8675a9;"></i><br>HTML</span>
+                        <span class="col-sm-4" id="icons"><i class="fab fa-css3-alt"
+                                style="font-size: 4em; color: #8675a9;"></i><br>CSS</span>
+                        <span class="col-sm-4" id="icons"><i class="fab fa-js-square"
+                                style="font-size: 4em; color: #8675a9;"></i><br>JavaScript</span>
+                        <span class="col-sm-4" id="icons"><i class="fab fa-bootstrap"
+                                style="font-size: 4em; color: #8675a9;"></i><br>Bootstrap</span>
+                        <span class="col-sm-4" id="icons"><i class="fas fa-palette"
+                                style="font-size: 4em; color: #8675a9;"></i><br>UI/UX & Design</span>
+                        <span class="col-sm-4" id="icons"><i class="fas fa-file-excel"
+                                style="font-size: 4em; color: #8675a9;"></i><br>Excel</span>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <h3 id="about-me-header">ABOUT ME</h3>
-                <p> This section will be about me.
+                <h1 id="about-me-header">ABOUT ME</h1>
+                <div class="about-me-content">
+                    <p id="about-me-text1">I'm a musician turned non-profit professional <br> turned web developer.</p>
+                    <p id="about-me-text2">
+                        Having served as Executive Director of a small nonprofit and as a professional musician, I
+                        thrive where creative processes and problem solving meet. I love working as part of a team to
+                        build beautiful things.
+                    <p id="about-me-text2">As a student at Eleven Fifty Academy, I am currently studying to become a
+                        junior web
+                        developer and put my knowledge of nonprofits to good use building great websites for
+                        organizations who do great things.</p>
 
-                    Put your feelings into it, your heart, it's your world. From all of us here, I want to wish you
-                    happy painting and God bless, my friends. Nice little fluffy clouds laying around in the sky being
-                    lazy.
-
-                    I want everbody to be happy. That's what it's all about. Use what you see, don't plan it. Be brave.
-                    You can't have light without dark. You can't know happiness unless you've known sorrow.
-
-                    Didn't you know you had that much power? You can move mountains. You can do anything. You have to
-                    allow the paint to break to make it beautiful. I spend a lot of time walking around in the woods and
-                    talking to trees, and squirrels, and little rabbits and stuff. There is no right or wrong - as long
-                    as it makes you happy and doesn't hurt anyone. This is gonna be a happy little seascape. Once you
-                    learn the technique, ohhh! Turn you loose on the world; you become a tiger.
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="portfolio-wrapper">
-        <h3>PORTFOLIO</h3>
-        <!-- card1 -->
-        <div class="container align-items-center" id="portfolio-inner-content">
-            <div class="row">
-                <div class="card" style="width: 18rem;" class="col-sm-4">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the
-                            card's content.</p>
-                    </div>
+    <div class="portfolio-wrapper" id="portfolio">
+        <h1 id="portfolio-title">PORTFOLIO</h1>
+        <div class="all-card-content">
+            <div class="card-group text-center">
+                <div class="card" id="static-layout-card">
+                    <a href="https://erinjeter.github.io/static_layout/" target="_blank">
+                        <!-- <img src="./assets/staticLayout2.png" class="card-img-top" alt="..."> -->
+                        <span id="card-heading"><b>Static Layout</b></span>
+                        <br>
+                        <br>
+                        <span id="card-text">My first webpage- <br>This is a static recreation of the StarWars home
+                            page</span>
+                    </a>
                 </div>
-                <!-- card2 -->
-                <div class="card" style="width: 18rem;" class="col-sm-4">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">STATIC LAYOUT</p>
-                    </div>
+                <div class="card" id="api-project-card">
+                    <a href="https://erinjeter.github.io/api-project/" target="_blank">
+                        <!-- <img src="./assets/apiPhoto.png" class="card-img-top" alt="..."> -->
+                        <span id="card-heading"><b>Discogs API</b></span>
+                        <br>
+                        <br>
+                        <span id="card-text">First project utilizing an API- <br>This site displays a random release on
+                            Discogs by
+                            search term</span>
+                    </a>
                 </div>
-                <!-- card3   -->
-                <div class="card" style="width: 18rem;" class="col-sm-4">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">CSS CREATURE</p>
-                    </div>
+                <div class="card" id="ihs-card">
+                    <!-- <img src="./assets/ihs.png" class="card-img-top" alt="..." height="200px" width="200px"> -->
+                    <a href="">
+                        <span id="card-heading"><b>Irvington Historical Society</b></span>
+                        <br>
+                        <br>
+                        <span id="card-text">Webpage built for the Irvington Historical Society</span>
+                    </a>
                 </div>
-                <!-- card4  -->
-                <div class="card" style="width: 18rem;" class="col-sm-4">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the
-                            card's content.</p>
-                    </div>
+            </div>
+            <div class="card-group text-center">
+                <div class="card" id="murals-card">
+                    <a href="https://www.youtube.com/watch?v=nvqExfOzMCI" target="_blank">
+                        <span id="card-heading"><b>Murals by Eliot Bigger</b></span>
+                        <br>
+                        <br>
+                        <span id="card-text">Place holder for red badge- <br> Debut music video from my band, Eliot
+                            Bigger</span>
+                    </a>
                 </div>
-                <!-- card5   -->
-                <div class="card" style="width: 18rem;" class="col-sm-4">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
+                <div class="card" id="plant-card">
+                    <!-- <img src="./assets/space.jpg" class="card-img-top" alt="..." height="200px" width="200px"> -->
+                    <a href="">
+                        <span id="card-heading"><b>Propagation Station</b></span>
+                        <br>
+                        <br>
+                        <span>Placeholder for blue badge</span>
+                    </a>
                 </div>
-                <!-- card6 -->
-                <div class="card" style="width: 18rem;" class="col-sm-4">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
+                <div class="card" id="creature-card">
+                    <a href="https://codepen.io/erinjeter/pen/jOrXWWY" target="_blank">
+                        <!-- <img src="./assets/creature.png"
+                            class="card-img-top" alt="..." height="210px" width="200px"> -->
+                        <span id="card-heading"><b>Ralph</b></span>
+                        <br>
+                        <br>
+                        <span id="card-text">First project using CSS- <br>Ralph was created using only CSS</span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- RESUME -->
+    <!-- <div class="resume-wrapper">
+        <a class="btn btn-light" data-bs-toggle="collapse"
+            href="https://drive.google.com/file/d/1kvAaEQCLWsWSffXi6WCwVx40rezQFsX5/view" target="_blank" role="button"
+            aria-expanded="false" aria-controls="resume" id="resume-button">Want to
+            learn more? View my resume</a>
+        </p>
+    </div> -->
+
+
     <!--CONTACT FORM -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="resume-wrapper">
+                    <a class="btn btn-dark"
+                        href="https://drive.google.com/file/d/1kvAaEQCLWsWSffXi6WCwVx40rezQFsX5/view" target="_blank"
+                        role="button" id="resume-button">Want to learn more? View my resume</a>
+                </div>
+                <!-- <img src="./assets/IMG_1184.jpg" alt="Me being delighted by holding a tiny white bunny"> -->
+            </div>
+            <div class="col">
+                <div class="form-wrapper" id="contact-form">
+                    <form action="https://formspree.io/f/xpzojwgk" method="POST">
+                        <h1>LET'S CONNECT</h1>
+                        <div class="form-group" class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group" class="mb-3">
+                            <input type="text" name="_replyto" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group" class="mb-3">
+                            <input type="text" name="phone" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="form-group" class="mb-3">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group" class="mb-3">
+                            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <!-- your other form fields go here -->
+                        <div class="form-group">
+                            <button type="submit" id="contact-button">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <form action="https://formspree.io/f/xpzojwgk" method="POST">
-        <label>
-            Your email:
-            <input type="text" name="_replyto">
-        </label>
-        <label>
-            Your message:
-            <textarea name="message"></textarea>
-        </label>
-
-        <!-- your other form fields go here -->
-
-        <button type="submit">Send</button>
-    </form>
-    <footer class="footer">
-        <div class="col-md-12 text-center">Back to top</div>
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" id="home">
+                <a class="navbar-brand" href="#home">HOME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#about-me-container">ABOUT</a>
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                        <a class="nav-link" href="#contact-form">CONTACT ME</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/erin-jeter/" target="_blank"><i class="fab fa-linkedin"
+                    id="linkedin"></i></a>
+            <a href="https://github.com/erinjeter" target="_blank"><i class="fab fa-github-square" id="github"></i></a>
+            <a href="https://codepen.io/your-work" target="_blank"><i class="fab fa-codepen" id="codepen"></i></a>
+        </nav>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+
 
 </html>

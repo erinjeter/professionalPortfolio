@@ -1,7 +1,16 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 nav {
   background-color: rgb(187, 178, 179);
 }
 
+h1 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* TITLE PAGE */
 #title-wrapper {
   height: 800px;
   align-content: center;
@@ -18,10 +27,20 @@ nav {
   font-family: "Rubik", sans-serif;
 }
 
+/* ABOUT SECTION */
 #about-me-container {
-  height: 500px;
+  height: 700px;
+  margin-top: 150px;
+  padding: 50px;
+}
+
+.about-me-content {
   padding: 30px;
-  margin-top: 30px;
+}
+
+#about-me-text1 {
+  color: #8675a9;
+  text-align: center;
 }
 
 img {
@@ -33,11 +52,243 @@ img {
   text-align: center;
 }
 
+/* PORTFOLIO */
 .portfolio-wrapper {
-  text-align: center;
-  margin-top: 80px;
+  background-color: black;
+  height: 900px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#portfolio-title {
+  color: #8675a9;
+  padding-left: 150px;
+  font-size: 4em;
 }
 
 #icons {
   margin: 30px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: transparent;
+}
+
+.all-card-content {
+  padding: 50px 150px 0px 150px;
+}
+
+#card-text {
+  padding: 10px;
+  color: rgb(20, 15, 15);
+}
+
+#card-heading {
+  font-family: "Rubik", sans-serif;
+}
+
+/* STATIC LAYOUT CARD */
+#static-layout-card a {
+  display: block;
+  background: rgba(0, 0, 0, 0.05) url(./assets/staticLayout2.png) 0px 0px
+    no-repeat;
+  height: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#static-layout-card a:hover {
+  background: rgba(134, 117, 169, 0.7);
+  -webkit-transition: background-color 0.4s ease;
+}
+
+#static-layout-card a span {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#static-layout-card a:hover span {
+  top: 50px;
+  opacity: 1;
+}
+
+/* API PROJECT CARD */
+#api-project-card a {
+  display: block;
+  background: rgba(0, 0, 0, 0.05) url(./assets/discogsapi.png) 0px 0px no-repeat;
+  height: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#api-project-card a:hover {
+  background: rgba(134, 117, 169, 0.7);
+  -webkit-transition: background-color 0.4s ease;
+}
+
+#api-project-card a span {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#api-project-card a:hover span {
+  top: 50px;
+  opacity: 1;
+}
+
+/* IHS CARD */
+#ihs-card a {
+  display: block;
+  background: rgba(0, 0, 0, 0.05) url(./assets/ihs2.png) 0px 0px no-repeat;
+  height: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#ihs-card a:hover {
+  background: rgba(134, 117, 169, 0.7);
+  -webkit-transition: background-color 0.4s ease;
+}
+
+#ihs-card a span {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#ihs-card a:hover span {
+  top: 50px;
+  opacity: 1;
+}
+
+/* MURALS CARD */
+#murals-card a {
+  display: block;
+  background: rgba(0, 0, 0, 0.05) url(./assets/murals.jpg) 0px 0px no-repeat;
+  height: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#murals-card a:hover {
+  background: rgba(134, 117, 169, 0.7);
+  -webkit-transition: background-color 0.4s ease;
+}
+
+#murals-card a span {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#murals-card a:hover span {
+  top: 50px;
+  opacity: 1;
+}
+
+/* PLANT CARD */
+#plant-card a {
+  display: block;
+  background: rgba(0, 0, 0, 0.05) url(./assets/calathea.jpg) 0px 0px no-repeat;
+  height: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#plant-card a:hover {
+  background: rgba(134, 117, 169, 0.7);
+  -webkit-transition: background-color 0.4s ease;
+}
+
+#plant-card a span {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#plant-card a:hover span {
+  top: 50px;
+  opacity: 1;
+}
+
+/* CREATURE CARD */
+#creature-card a {
+  display: block;
+  background: rgba(0, 0, 0, 0.05) url(./assets/creature.png) 0px 0px no-repeat;
+  height: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+#creature-card a:hover {
+  background: rgba(134, 117, 169, 0.7);
+  -webkit-transition: background-color 0.4s ease;
+}
+
+#creature-card a span {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#creature-card a:hover span {
+  top: 50px;
+  opacity: 1;
+}
+
+/* RESUME */
+.resume-wrapper {
+  text-align: center;
+  height: 500px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  background: url(./assets/IMG_1184.jpg) 0px 0px no-repeat;
+}
+
+#resume-button {
+  width: 100%;
+  position: relative;
+  opacity: 0.8;
+}
+
+/* CONTACT FORM */
+.form-wrapper {
+  padding: 30px 0px 0px 30px;
+  margin-top: 30px;
+}
+
+#contact-button {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #8675a9;
+}
+
+#linkedin,
+#github,
+#codepen {
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px 0px 20px;
+  font-size: 2em;
+}
+
+#linkedin:hover,
+#github:hover,
+#codepen:hover {
+  color: grey;
 }
