@@ -17,7 +17,7 @@ h1 {
 }
 
 #title-wrapper {
-  background-image: url("./assets/IMG_3629.jpg");
+  background: url(./assets/IMG_3629.jpg);
   height: 1000px;
 }
 
